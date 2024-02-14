@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Portfolio</title>
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "styles.css">
+        <link rel = "icon" href = "media/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    </head>
+    <body class = "font-serif">
+        <!--L'en_tête-->
+        <header class = "flex flex-col lg:grid lg:grid-cols-2 py-4 text-orange-300" style = "background-color: rgb(55, 28, 9);">
+            <div class = "flex justify-center" style = "padding: auto; margin: auto;">
+                <img src = "media/icon.png" alt = "icône" class = "w-10 h-9">
+                <h1 class ="font-black text-xl">Josué MONGAN</h1>
+            </div>
+            <nav class = "flex flex-col p-4 lg:flex-row lg:justify-around">
+                <a href = "main.html">Accueil</a>
+                <a href = "main.html#propos">A propos</a>
+                <a class = "font-bold text-lg">Portfolio</a>
+                <a href = "main.html#cv">CV</a>
+                <a href = "#formul">Me contacter</a>
+            </nav>
+        </header>
+
+        <main class ="bg-orange-100 p-4">
+            <p class = "text-justify indent-10">Ce qui suit regroupe l'ensemble de mes projets par compétence. Vous y trouverez à chaque fois un aperçu du résultat du projet et également une description brève du processus d'obtention ou de certaines particularités du projet lorsqu'il y a lieu de le faire.</p>
+
+            <!--Les projets HTML-->
+            <section id ="html" class = "mt-4">
+                <h2 class = "font-semibold text-sm indent-10 m-2 lg:text-center lg:mt-9">HTML</h2>
+                <div class = "lg:flex">
+                    <p class ="text-justify mb-2 lg:m-3 lg:w-2/5 lg:indent-10" style = "padding: auto; margin: auto;">Le HTML est un langage utilisé pour définir la structure de la page web. Il est donc essentiel à la création de tout site web. N'ignorant pas son importance, je me suis donc assuré que je maitrisais correctement ce langage.</p>
+                    <figure>
+                        <img src = "media/html.png" alt = "html" class = "border-black border-2 m-2 lg:w-3/5"  style = "margin: auto;">
+                        <img src = "media/html1.png" alt = "html1" class = "border-black border-2 m-2 lg:w-3/5"  style = "margin: auto;">
+                    </figure>
+                </div>
+            </section>
+
+            <!--Les projets CSS simples-->
+            <section id = "css" class = "mt-4">
+                <h2 class = "font-semibold text-sm indent-10 m-2 lg:text-center lg:mt-9">CSS</h2>
+                <div class = "lg:flex">
+                    <p class ="text-justify mb-2 lg:m-3 lg:w-2/5 lg:indent-10" style = "padding: auto; margin: auto;">Le CSS est le langage qui permet d'habiller le site web structuré grâce à du HTML. Mes connaissances dans ce domaine ne s'arrête pas seulement aux simples propriétés courantes mais s'étendent jusqu'aux media queries et même au SASS.</p>
+                    <figure>
+                        <img src = "media/css.png" alt = "css" class = "border-black border-2 lg:w-3/5"  style = "margin: auto;">
+                    </figure>
+                </div>
+            </section>
+
+            <!--Les projets Bootstrap CSS-->
+            <section id = "boot" class = "mt-4">
+                <h2 class = "font-semibold text-sm indent-10 m-2 lg:text-center lg:mt-9">Bootstrap CSS</h2>
+                <div class = "lg:flex">
+                    <p class ="text-justify mb-2 lg:m-3 lg:w-2/5 lg:indent-10" style = "padding: auto; margin: auto;">Une des choses qui importe aussi dans le développement web est l'obtention d'un site réactif qui est beau à voir sur n'importe lequel des écrans. Pour cela, on peut utiliser la framework Bootstrap dont je maîtrise le fonctionnement et l'utilisation des classes. Ici vous pouvez voir deux pages web. A chaque fois vous avez la version grand écran et aussi la version mobile qui est obtenue grâce à Bootstrap CSS en rendant le site web réactif.</p>
+                    <figure>
+                        <img src = "media/bootr.png" alt = "boot" class = "m-3 border-black border-2 lg:w-3/5" style = "margin: auto;">
+                        <img src = "media/bootr1.png" alt = "boot1" class = "m-3 border-black border-2 lg:w-3/5" style = "margin: auto;">
+                    </figure>
+                </div>
+            </section>
+
+            <!--Les projets Tailwind CSS-->
+            <section id = "tail" class = "mt-4">
+                <h2 class = "font-semibold text-sm indent-10 m-2 lg:text-center lg:mt-9">Tailwind CSS</h2>
+                <div class = "lg:flex">
+                    <p class ="text-justify mb-2 lg:m-3 lg:w-2/5 lg:indent-10" style = "padding: auto; margin: auto;">Tailwind est aussi une framework très utile et intéressante pour obtenir des sites web réactifs. J'ai fait en sorte de la maitriser ainsi que tout ce qui à rapport à la modification de ses fonctionnalités et des classes utilitaires. Vous avez ici le site web qui est présenté en version grand écran mais aussi en version mobile. Cette réactivité est obtenue grâce à Tailwind CSS.</p>
+                    <figure>
+                        <img src = "media/tailr.png" alt = "tail" class = "m-3 border-black border-2 lg:w-3/5" style = "margin: auto;">
+                    </figure>
+                </div>
+            </section>
+
+
+
+
+            <!--Le formulaire de contact-->
+            <section id = "formul" class = "mt-4">
+                <form class = "flex flex-col p-4">
+                    <label for = "name" class = "font-semibold mt-3">Nom et prénoms</label>
+                    <input type = "text" id = "name" placeholder = "Jonhson Martinez" name="name" class = "px-2 ring-black rounded ring-1">
+
+                    <label for = "mail" class = "font-semibold mt-3">Email</label>
+                    <input type = "email" id = "mail" placeholder = "johnsonmartinez@gmail.com" name="mail" class = "px-2 ring-black rounded ring-1">
+
+                    <label for = "message" class = "font-semibold mt-3">Message</label>
+                    <textarea rows="3" id = "message" name="message" class = "px-2 text-gray-500 ring-black rounded ring-1">Vos suggestions</textarea>
+
+                    <button type = "submit" class = "m-2 bg-orange-300 font-medium rounded hover:bg-orange-200 lg:w-28">Soumettre</button>
+                </form>
+            </section>
+        </main>
+
+        <!--Le pied de page-->
+        <footer class = "py-4 text-orange-300" style = "background-color: rgb(55, 28, 9);"> 
+            <div class = "text-center">
+                <p>&copy; 2024 Portfolio <strong>Josué Mongan</strong>. Tous droits réservés.</p>
+                <p>160 Grand-Yoff, Dakar, Sénégal</p>
+            </div>
+            <nav class = "flex justify-around py-2">
+                <button class = "bg-orange-300 rounded ring-2 ring-orange-400"><a href = "mailto:josuesmjr.mongan@gmail.com"><img src = "media/mail.png" alt ="Bouton mail"></a></button>
+                <button class = "bg-orange-300 rounded ring-2 ring-orange-400"><a href = "https://www.facebook.com/" target = "_blank"><img src = "media/facebook.png" alt = "Bouton facebook"></a></button>
+				<button class = "bg-orange-300 rounded ring-2 ring-orange-400"><a href = "https://www.instagram.com/" target = "_blank"><img src = "media/insta.png" alt = "Bouton instagram"></a></button>
+				<button class = "bg-orange-300 rounded ring-2 ring-orange-400"><a href = "https://twitter.com/i/flow/login" target = "_blank"><img src = "media/twitter.png" alt = "Bouton twitter"></a></button>
+				<button class = "bg-orange-300 rounded ring-2 ring-orange-400"><a href = "https://fr.linkedin.com/" target = "_blank"><img src = "media/linkedin.png" alt = "Bouton linkedin"></a></button>
+            </nav>
+        </footer>
+    </body>
+</html>

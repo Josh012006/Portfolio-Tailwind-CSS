@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang = "fr">
+    <head>
+        <title>Portfolio</title>
+        <meta charset = "uft-8">
+        <meta name = "viewport" content ="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "styles.css">
+        <link rel = "icon" href = "media/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    </head>
+    <body class = "font-serif">
+        <!--L'en_tête-->
+        <header class = "flex flex-col lg:grid lg:grid-cols-2 py-4 text-orange-300" style = "background-color: rgb(55, 28, 9);">
+            <div class = "flex justify-center" style = "padding: auto; margin: auto;">
+                <img src = "media/icon.png" alt = "icône" class = "w-10 h-9">
+                <h1 class ="font-black text-xl">Josué MONGAN</h1>
+            </div>
+            <nav class = "flex flex-col p-4 lg:flex-row lg:justify-around">
+                <a class = "font-bold text-lg">Accueil</a>
+                <a href = "#propos">A propos</a>
+                <a href = "portfolio.html">Portfolio</a>
+                <a href = "#cv">CV</a>
+                <a href = "#formul">Me contacter</a>
+            </nav>
+        </header>
+
+        <main class ="bg-orange-100 p-4">
+            <!--La section a propos-->
+            <section id = "propos" class = "flex mt-4 flex-col md:flex-row">
+                <div class = "p-2">
+                    <div class = "md:sticky md:top-0">
+                        <div>
+                            <h1 class="text-2xl font-bold text-center">Josué Mongan</h1>
+                            <img src = "media/mypicture.png" alt = "ma photo" class = "w-56 h-80 border-black border-2" style = "margin: auto;">
+                        </div>
+
+                        <div>
+                            <h2 class = "text-center m-2 font-semibold text-lg underline underline-offset-4">Présentation</h2>
+                            <p class = "indent-3 text-justify">
+                                J'ai 18 ans et je suis célibataire.
+                            Je suis un actuellement étudiant à Gomycode. Je suis passionné de l'informatique. Calme et jovial, j'aime aussi la lecture. 
+                            J'apprécie particulièrement les romans policiers et les histoires d'aventure. Je sais également jouer un peu de piano.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "p-2 indent-3">
+
+                    <div class = "flex flex-col">
+                        <h2 class = "text-center m-2 font-semibold text-lg underline underline-offset-4">Compétences</h2>
+                        <p>J'ai acquis au cours de ma formation des Hardskills mais aussi des Softskills.</p>
+                        <div>
+                            <!--Les hardskills-->
+                            <div>
+                                <h4 class = "font-black text-center m-1 text-xl" style = "font-family: Alex Brush;">Hardskills</h4>
+                                <dl class = "text-justify">
+                                    <dt class = "font-semibold text-sm indent-10">Le HTML</dt>
+                                    <dd>
+                                        En tant que développeur passionné, je possède une expertise approfondie dans le langage de balisage HTML, un pilier fondamental du développement web moderne. Ma maîtrise de HTML va bien au-delà de la simple 
+                                        compréhension des balises et des attributs ; je suis capable de créer des structures de page web bien conçues, sémantiquement correctes et accessibles.
+                                    </dd>
+                                    <dt class = "font-semibold text-sm indent-10">Le CSS</dt>
+                                    <dd>
+                                        En tant que développeur web expérimenté, je possède une expertise avancée dans le langage de style CSS, qui joue un rôle crucial dans la création d'interfaces web esthétiquement attrayantes et fonctionnelles. 
+                                        Ma profonde connaissance de CSS va bien au-delà de la simple manipulation de couleurs et de polices ; je suis capable de créer des mises en page complexes, réactives et harmonieuses qui 
+                                        améliorent l'expérience utilisateur et renforcent la marque de manière significative.
+                                    </dd>
+                                    <dt class = "font-semibold text-sm indent-10">La framework Bootstrap</dt>
+                                    <dd>
+                                        En tant que développeur web expérimenté, je possède une solide expertise dans l'utilisation du framework Bootstrap, un outil incontournable pour la création d'interfaces web modernes, réactives et esthétiquement 
+                                        attrayantes. Ma maîtrise de Bootstrap me permet de concevoir des sites web hautement fonctionnels et conviviaux, en exploitant 
+                                        pleinement les fonctionnalités et les composants offerts par ce framework.
+                                    </dd>
+                                    <dt class = "font-semibold text-sm indent-10">La framework Tailwind</dt>
+                                    <dd>
+                                        En tant que développeur web, je maîtrise parfaitement l'utilisation de Tailwind CSS, un framework CSS utilitaire moderne qui offre une approche novatrice pour la création d'interfaces web 
+                                        élégantes et réactives. Mon expertise approfondie dans Tailwind CSS me permet de concevoir des designs épurés et hautement personnalisables, tout en optimisant considérablement mon flux de travail de développement.
+                                    </dd>
+                                </dl>
+                            </div>
+
+                            <!--Les softskills-->
+                            <div>
+                                <h4 class = "font-black text-center m-1 text-xl" style = "font-family: Alex Brush;">Softskills</h4>
+                                <dl class = "text-justify">
+                                    <dt class = "font-semibold text-sm indent-10">Résolution de problèmes</dt>
+                                    <dd>
+                                        J'ai une certaine facilité à analyser les situations, à identifier les problèmes et à proposer des solutions appropriées.
+                                        Ma nature calme me permet également d'analyser les problèmes avec patience afin de trouver la meilleure solution.
+                                    </dd>
+                                    <dt class = "font-semibold text-sm indent-10">Communication</dt>
+                                    <dd>
+                                        Je réussis à communiquer avec les autres et à transmettre mes idées. En plus, ma maitrise de la langue française et aussi 
+                                        de celle anglaise me donne une ceraine flexibilité lors des échanges.
+                                    </dd>
+                                    <dt class = "font-semibold text-sm indent-10">Le travail en équipe</dt>
+                                    <dd>
+                                        Travailler efficacement avec d'autres personnes est aussi un autre de mes atout. D'ailleurs mes capacité de communication m'aident 
+                                        à collaborer et à contribuer à un environnement de travail positif.
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 class = "text-center m-2 font-semibold text-lg underline underline-offset-4">Objectifs</h2>
+                        <p>Mon rêve est devenir un jour un expert en informatique et de pouvoir pourquoi pas faire une découverte qui permettrait de révolutionner ce domaine.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--Un aperçu de la section portfolio et un lien de redirection vers l'entièreté du travail-->
+            <section class = "mt-4">
+                <h1 class="text-2xl font-bold text-center m-2">Aperçu Portfolio</h1>
+                <p class = "text-justify">Cette section vous expose un aperçu de mes travaux et projets. Pour plus d'informations, veuillez cliquer sur le bouton qui vous redirigera vers la page contenant l'intégralité de mon portfolio.</p>
+
+                <!--Aperçu des projets HTML-->
+                <div>
+                    <h2 class = "font-semibold text-sm indent-10 m-2">HTML</h2>
+                    <div class = "lg:grid lg:grid-flow-row">
+                        <p class ="text-justify mb-2">Toute page web ayant besoin d'une structure écrite en HTML, je me suis assuré d'avoir de solides bases dans ce domaine et ce même pour pouvoir travailler sur des projets de grande envergure.</p>
+                        <img src = "media/html.png" alt ="html" style = "margin: auto;" class = "border-black border-2 lg:w-3/5">
+                    </div>
+                    <button class = "m-2 bg-orange-300 font-medium rounded hover:bg-orange-200 border-black border-2 p-2 w-full md:w-auto"><a href = "portfolio.html#html">Découvrir les projets HTML</a></button>
+                </div>
+
+                <!--Aperçu des projets CSS-->
+                <div>
+                    <h2 class = "font-semibold text-sm indent-10 m-2">CSS</h2>
+                    <div class = "lg:grid lg:grid-flow-row">
+                        <p class ="text-justify mb-2">En utilisant une bonne partie de mes connaissances en CSS, j'ai pu faire le design du site web et le rendre attrayant.</p>
+                        <img src = "media/css.png" alt ="css" style = "margin: auto;" class = "border-black border-2 lg:w-3/5">
+                    </div>
+                    <button class = "m-2 bg-orange-300 font-medium rounded hover:bg-orange-200 border-black border-2 p-2 w-full md:w-auto"><a href = "portfolio.html#css">Découvrir les projets CSS</a></button>
+                </div>
+                
+                <!--Aperçu des projets Bootsrap-->
+                <div>
+                    <h2 class = "font-semibold text-sm indent-10 m-2">Bootstrap CSS</h2>
+                    <div class = "lg:grid lg:grid-flow-row">
+                        <p class ="text-justify mb-2">Le Bootstrap est une framework très utile et intéressante à utiliser dont j'ai fait grandement usage au niveau de ce projet.</p>
+                        <img src = "media/boot.png" alt ="bootstrap" style = "margin: auto;" class = "border-black border-2 lg:w-3/5">
+                        <h4 class = "font-semibold text-center text-sm mt-2 mb-4 underline">Site sur grand écran</h4>
+                        <img src = "media/boot1.png" alt ="bootstrap1" style = "margin: auto;" class = "border-black border-2 lg:w-1/4">
+                        <h4 class = "font-semibold text-center text-sm mt-2 mb-4 underline">Site sur écran mobile</h4>
+                    </div>
+                    <button class = "m-2 bg-orange-300 font-medium rounded hover:bg-orange-200 border-black border-2 p-2 w-full md:w-auto"><a href = "portfolio.html#boot">Découvrir les projets Bootstrap</a></button>
+                </div>
+
+                <!--Aperçu des projets tailwind-->
+                <div>
+                    <h2 class = "font-semibold text-sm indent-10 m-2">Tailwind CSS</h2>
+                    <div class = "lg:grid lg:grid-flow-row">
+                        <p class ="text-justify mb-2">Tailwind est une framework que beaucoup trouvent difficiles. Mais avec de la persévérance j'ai pu obtenir un site web assez intéressant avec cette framework.</p>
+                        <img src = "media/tail.png" alt ="tailwind" style = "margin: auto;" class = "border-black border-2 lg:w-3/5">
+                        <h4 class = "font-semibold text-center text-sm mt-2 mb-4 underline">Site sur grand écran</h4>
+                        <img src = "media/tail1.png" alt ="tailwind1" style = "margin: auto;" class = "border-black border-2 lg:w-1/4">
+                        <h4 class = "font-semibold text-center text-sm mt-2 mb-4 underline">Site sur écran mobile</h4>
+                    </div>
+                    <button class = "m-2 bg-orange-300 font-medium rounded hover:bg-orange-200 border-black border-2 p-2 w-full md:w-auto"><a href = "portfolio.html#tail">Découvrir les projets Tailwind</a></button>
+                </div>
+            </section>
+
+
+            
+
+            <!--La section CV-->
+            <section id = "cv" class = "mt-4">
+                <h1 class="text-2xl font-bold text-center m-2">CV</h1>
+                <h3 class = "m-4">Voici ici mon CV. Pour davantage d'informations sur moi veuillez vous rendre <a href = "https://fr.linkedin.com/" target = "_blank" class = "text-lg font-semibold">ici</a>.</h3>
+                <figure>
+                    <img src = "media/cv.jpg" alt = "Mon CV" width ="40%" class = "border-black border-2" style="margin: auto;">
+                </figure>
+            </section>
+
+            <!--Le formulaire de contact-->
+            <section id = "formul" class = "mt-4">
+                <form class = "flex flex-col p-4">
+                    <label for = "name" class = "font-semibold mt-3">Nom et prénoms</label>
+                    <input type = "text" id = "name" placeholder = "Jonhson Martinez" name="name" class = "px-2 ring-black rounded ring-1">
+
+                    <label for = "mail" class = "font-semibold mt-3">Email</label>
+                    <input type = "email" id = "mail" placeholder = "johnsonmartinez@gmail.com" name="mail" class = "px-2 ring-black rounded ring-1">
+
+                    <label for = "message" class = "font-semibold mt-3">Message</label>
+                    <textarea rows="3" id = "message" name="message" class = "px-2 text-gray-500 ring-black rounded ring-1">Vos suggestions</textarea>
+
+                    <button type = "submit" class = "m-2 bg-orange-300 font-medium rounded hover:bg-orange-200 lg:w-28">Soumettre</button>
+                </form>
+            </section>
+        </main>
+
+        <!--Le pied de page-->
+        <footer class = "py-4 text-orange-300" style = "background-color: rgb(55, 28, 9);"> 
+            <div class = "text-center">
+                <p>&copy; 2024 Portfolio <strong>Josué Mongan</strong>. Tous droits réservés.</p>
+                <p>160 Grand-Yoff, Dakar, Sénégal</p>
+            </div>
+            <nav class = "flex justify-around py-2">
+                <button class = "bg-orange-300 rounded ring-2 ring-orange-400"><a href = "mailto:josuesmjr.mongan@gmail.com"><img src = "media/mail.png" alt ="Bouton mail"></a></button>
+                <button class = "bg-orange-300 rounded ring-2 ring-orange-400"><a href = "https://www.facebook.com/" target = "_blank"><img src = "media/facebook.png" alt = "Bouton facebook"></a></button>
+				<button class = "bg-orange-300 rounded ring-2 ring-orange-400"><a href = "https://www.instagram.com/" target = "_blank"><img src = "media/insta.png" alt = "Bouton instagram"></a></button>
+				<button class = "bg-orange-300 rounded ring-2 ring-orange-400"><a href = "https://twitter.com/i/flow/login" target = "_blank"><img src = "media/twitter.png" alt = "Bouton twitter"></a></button>
+				<button class = "bg-orange-300 rounded ring-2 ring-orange-400"><a href = "https://fr.linkedin.com/" target = "_blank"><img src = "media/linkedin.png" alt = "Bouton linkedin"></a></button>
+            </nav>
+        </footer>
+    </body>
+</html>
